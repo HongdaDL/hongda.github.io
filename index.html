@@ -123,7 +123,7 @@
                 </div>
 
                 <div class="col-md-4 block-bottom-space">
-                    <a href="" target="_blank"><span id="project-icon" style="width: 200px; background: url('/img/fraud.jpg'); background-size: cover"></span></a>
+                    <a href="" target="_blank"><span id="project-icon" style="background: url('/img/fraud.jpg'); background-size: cover"></span></a>
                     <span class="role">Fraud Detection</span>
                     <span class="date">Mar. 2018 - Present</span>
                 </div>
@@ -163,6 +163,7 @@
         <!-- Change profile picture :p -->
         <script>
             myPorfPic = document.querySelector(".prof-pic")
+	    myPorfPic.setAttribute("src","img/profile.jpg")
 
             myPorfPic.addEventListener("mouseover",function() {
               myPorfPic.setAttribute("src","img/profile2.jpg");
