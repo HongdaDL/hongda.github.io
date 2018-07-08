@@ -1,0 +1,212 @@
+/* Global Style */
+
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.my-section {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-section h1 {
+    padding-bottom: 0.3em;
+}
+
+.block-bottom-space {
+    margin-bottom: 1em;
+}
+
+
+.companyName {
+    display: block;
+    padding-top: 0.4em;
+    font-size: 20px;
+    
+}
+
+.role {
+    display: block;
+    
+}
+
+.date {
+    color: darkgray;
+    font-size: 14px;
+}
+
+
+
+/* Navigation Bar */
+.nav-custom {
+    margin: auto;
+}
+
+.nav-custom li{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+
+/* Home */
+
+#home {
+    background: url('/img/background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px; 
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
+.prof-box {
+    min-width: 300px;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prof-pic {
+    margin-top: 40px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+
+.prof-box h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.social-icon {
+    font-size: 40px;
+    padding-bottom: 30px;
+
+}
+
+.social-icon i {
+    padding: 10p;
+    color: white;
+}
+
+.social-icon i:hover {
+    color: coral;
+}
+
+
+
+
+
+
+
+/* About Section */
+#about {
+    margin-top: 1em;
+}
+
+#about p {
+    text-align: left;
+}
+
+
+
+
+/* Education Section */
+
+
+
+
+
+/* Project Section */
+#project-icon {
+    display: block;
+    height: 200px;
+    border: 1px solid;
+    border-color: #CCCCCC;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+
+/* Footer Section */
+
+footer {
+    padding: 20px 0;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Screen size for pad-pro */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    
+/* About Section */
+    
+    
+    
+/* Education Section */
+    
+}
+
+
+
+
+/* Screen size for pad */
+@media only screen and (max-width: 768px) and (min-width: 450px)  {
+    
+/* Navigaztion */
+
+
+    
+/* About Section */
+    
+    
+/* Education section */
+
+
+
+/* Screen size for phone */
+    
+    
+@media only screen and (max-width: 450px) {
+/* Navigaztion */
+
+
+
+
+/* About */
+
+
+
+/* Education section */
+
+
